@@ -1,0 +1,8 @@
+---
+
+- hosts: debian
+  remote_user: timo
+  become: yes
+
+  roles:
+    - setup-configs
