@@ -43,6 +43,7 @@ export PS1="\[\033[1;36m\]me\[\033[01;37m\]@\[\033[01;34m\]me\[\033[01;30m\][\[\
 
 #Put this in tmux config
 
+```
 #
 
 # List of plugins
@@ -56,4 +57,4 @@ set -g @plugin 'tmux-plugins/tmux-sensible'
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run -b '~/.tmux/plugins/tpm/tpm'
-
+```
