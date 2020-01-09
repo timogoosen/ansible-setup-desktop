@@ -17,6 +17,13 @@ venv $) ansible-playbook -i hosts site.yml -vvv
 
 ```
 
+### Automating Stuff
+
+* Do I really need to automate this?
+* Document first
+* Automate
+
+
 
 ### Tasks 
 
@@ -25,11 +32,12 @@ venv $) ansible-playbook -i hosts site.yml -vvv
 
 ## Add to .bashrc
 
+```
 Add this to ~/.bashrc
 
 export PS1="\[\033[1;36m\]me\[\033[01;37m\]@\[\033[01;34m\]me\[\033[01;30m\][\[\033[01;37m\]\w\[\033[01;30m\]]\[\033[01;32m\]\[\033[00m\]+ "
 
-
+```
 
 
 
